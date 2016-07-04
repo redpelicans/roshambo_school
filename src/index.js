@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-
-const App = () => (<h1> Hello World! </h1>)
+import { App } from './app'
 
 ReactDom.render(<App/>, document.getElementById('roshambo'))
